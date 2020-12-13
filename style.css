@@ -88,6 +88,7 @@ img{
     justify-content: center; */
     text-align: center;
     color: #F08F80;
+    margin-top: -60px;
     
 }
 
@@ -97,6 +98,13 @@ img{
     height: 90vh;
     
 }
+
+.gameBtns{
+    display: inline-flex;
+
+}
+
+
 
 .gameIntro{
     display: flex;
@@ -142,6 +150,8 @@ img{
     padding: 20px;
     position: relative;
     height: 80vh;
+    /* top: 50;
+    left: 90; */
     
 
 }
@@ -157,7 +167,11 @@ img{
     align-items: center;
     justify-content: center;
     padding: 20px;
+   
+   
     /* position: relative; */
+    z-index: 1;
+    
 }
 
 .self{
@@ -168,8 +182,10 @@ img{
     align-items: center;
     justify-content: center;
     padding: 20px;
-    /* position: absolute; */
-    /* z-index: -1; */
+    position: absolute;
+    top: 50;
+    left: 90;
+    z-index: 0;
 }
 
 .therapy{
