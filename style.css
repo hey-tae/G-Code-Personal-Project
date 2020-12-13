@@ -94,7 +94,7 @@ img{
 
 /* game section */
 .gameTest{
-    border: 2px solid #F08F80;
+    /* border: 2px solid #F08F80; */
     height: 90vh;
     
 }
@@ -104,7 +104,12 @@ img{
 
 }
 
-
+.buttonStyle{
+    font-size: 20px;
+    margin: 5px;
+    background-color: #F08F80;
+    padding: 14px 40px;
+}
 
 .gameIntro{
     display: flex;
@@ -140,8 +145,77 @@ img{
     font-size: 35px;
 }
 
+
+.personalExperience{
+    background-color: white;
+    height: 80vh;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.personalExperience > img{
+    width: 47vw;
+    height: 67vh;
+}
+
 /* fifth section (need to change name */
-.fourth{
+/* .container{
+    background-color: white;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    height: 80vh;
+    /* top: 50;
+    left: 90; */
+    
+
+} */
+
+/* need to figure out how to make text block sit in front of the photo w/ z-index */
+
+/* .personal{
+    background-color: #fdf0e6;
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+   
+   
+    /* position: relative; */
+    /* z-index: 1;
+    
+} */
+
+/* .self{
+    height: 70vh;
+    width: 30vw;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: absolute;
+    top: 50;
+    left: 90;
+    z-index: 0;
+} */ */
+
+
+/* .container{
+    height: 50vh;
+    background-color: white;
+    
+} */
+
+/* .wrapper{
     background-color: white;
     display: flex;
     margin: 0;
@@ -156,37 +230,19 @@ img{
 
 }
 
-/* need to figure out how to make text block sit in front of the photo w/ z-index */
 
-.personal{
-    background-color: #fdf0e6;
-    height: 40vh;
-    width: 30vw;
-    display: flex;
+.textBoxFront {
+    height: 100px;
+    width: 100px;
+    /* display: flex;
     margin: 0;
     align-items: center;
-    justify-content: center;
-    padding: 20px;
-   
-   
-    /* position: relative; */
-    z-index: 1;
-    
-}
+    justify-content: center; */
+} */
 
-.self{
-    height: 70vh;
-    width: 30vw;
-    display: flex;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    position: absolute;
-    top: 50;
-    left: 90;
-    z-index: 0;
-}
+
+
+
 
 .therapy{
     text-align: center;

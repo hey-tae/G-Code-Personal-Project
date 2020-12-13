@@ -7,8 +7,8 @@ let toggleBtn = document.getElementById('toggleBtn');
 let bodyBg = document.getElementsByTagName('body')[0];
 // console.log(bodyBg);
 let description = document.querySelector('.description');
-let selfieSection = document.querySelector('.fourth');
-let personal = document.querySelector('.personal');
+let selfieSection = document.querySelector('.wrapper');
+let personal = document.querySelector('.textBoxFront');
 let gameTest = document.querySelector('.gameTest');
 let therapy = document.querySelector('.therapy');
 let footer = document.querySelector('footer');
@@ -19,19 +19,20 @@ let footer = document.querySelector('footer');
 
 // don't forget your variable! 
 let isDark = false;
-
+// add function which has parameters light mode dark mode
 function toggleSwitch() {
     // currently background is dark, need to switch to light
-    if( isDark === true){
+    if( isDark ){
         console.log('working on making the background light');
-        bodyBg.style.background = 'white';
-        toggleBtn.style.backgroundColor = '#fdf0e6'
+        bodyBg.style.background = '#fdf0e6';
+        description.style.color = 'black';
+        // toggleBtn.style.backgroundColor = '#fdf0e6'
         // toggleBtn.innerHTML = 'Darken';
         //console.log('its bright');
         // isDark = false;
         console.log('background is light, isDark: ' + isDark); 
     // currently background is light, need to make dark 
-     } else if (isDark === false){
+     } else {
         console.log('working on making the backgound dark')
         bodyBg.style.background = 'black';
         // toggleBtn.innerHTML = 'Lighten';
