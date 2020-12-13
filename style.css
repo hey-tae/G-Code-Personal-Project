@@ -1,0 +1,220 @@
+/* colors:
+body pinkish #fdf0e6
+text darker pink #F08F80
+
+*/
+
+body{
+    background-color: #fdf0e6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVIGATION MENU */
+/* need to deicide if I want to include a menu navigation to my pages  */
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+
+/* dark mode button */
+.btn{
+    background-color:  #fdf0e6;
+    border: none; /* Remove borders */
+    color: white; 
+    padding: 12px 16px; 
+    font-size: 16px; 
+    
+}
+
+/* Main Page */
+.title{
+    color: #F08F80;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 70px;
+}
+
+/* description content  */
+.description{
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    
+}
+/* icon bar */
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.iconItem{
+    display: inline-block;
+
+}
+/* .iconBar{
+    display: flex;
+    flex-direction: row;
+
+} */
+
+.iconList{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/* need to figure out how to make the caption sit underneath the icons */
+ 
+#iconCaption{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+    color: #F08F80;
+    
+}
+
+/* game section */
+.gameTest{
+    border: 2px solid #F08F80;
+    height: 90vh;
+    
+}
+
+.gameIntro{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;    
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#gameIntro2{
+    padding-top: 20px;
+}
+
+.trueFalse{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;    
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+.trueFalse > h3{
+    font-size: 25px;
+}
+
+.trueFalse > p {
+    font-size: 35px;
+}
+
+/* fifth section (need to change name */
+.fourth{
+    background-color: white;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    height: 80vh;
+    
+
+}
+
+/* need to figure out how to make text block sit in front of the photo w/ z-index */
+
+.personal{
+    background-color: #fdf0e6;
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    /* position: relative; */
+}
+
+.self{
+    height: 70vh;
+    width: 30vw;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    /* position: absolute; */
+    /* z-index: -1; */
+}
+
+.therapy{
+    text-align: center;
+}
+
+.therapy >h3{
+    font-size: 25px;
+}
+
+a {
+    color: #F08F80;
+}
+
+
+
+footer{
+    background-color: white;
+    
+}
+
+div > span{
+    text-align: center;
+    text-decoration: underline;
+}
+.links {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    text-align: center;
+    
+
+}
+
+ul{
+    list-style: none;
+}
+
+
