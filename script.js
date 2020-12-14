@@ -18,6 +18,7 @@ let footer = document.querySelector('footer');
 
 // turn it light if isDark is true
 // the style of `a ? b : c;` means if a is true, do b, otherwise do c
+// I guessed on the color stuff, feel free to change that if i guessed wrong
 function changeColors(isDark) {
     bodyBg.style.background = isDark ? '#fdf0e6' : 'black';
     toggleBtn.style.backgroundColor = isDark ? '#fdf0e6' : 'black';
