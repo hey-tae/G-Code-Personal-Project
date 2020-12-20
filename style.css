@@ -231,6 +231,10 @@ justify-content: center;
     
 }
 
+a:hover{
+    color: white;
+}
+
 .meg{
     font-size: 16px;
     font-style: italic;
